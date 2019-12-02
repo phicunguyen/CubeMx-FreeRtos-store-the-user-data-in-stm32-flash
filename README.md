@@ -38,6 +38,7 @@ First create a user data structure as example below. Note: It can be any structu
     };
 
 Second declares a flash instance.
+
     static led_t led;
     static struct flash_t flash_user_data;
   
