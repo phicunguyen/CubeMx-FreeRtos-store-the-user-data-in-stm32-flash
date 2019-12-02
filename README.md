@@ -56,8 +56,8 @@ The flash_create function takes in three parameters:
  
       void flash_update(void *arg) {
           while (true) {
-	     update_led();
+             update_led();
              flash_user_data.flash_update(&flash_user_data); //write to flash only led data is changed.
              osDelay(200);
-	  }
+         }
       }    
